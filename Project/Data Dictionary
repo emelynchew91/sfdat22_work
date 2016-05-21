@@ -1,0 +1,19 @@
+business_name: name of the business fundraising for a small business loan
+city: city where the business is located - split into city and state within dataframe
+conversations: # of conversations that the borrower has with potential borrowers (on the conversation tab)
+listed: date the loan is listed on the Kiva website to start fundraising
+disbursed: date the loan is disbursed 
+days_fundraising: difference between listed and disbursed - up to 60 days
+Bucket: 1-10 days in Bucket #1, 1-20 days in Bucket #2 etc. Bucket #7 loans are expired and did not successfully fundraise
+industry: industry of the business
+invited_lenders: # of lenders from their personal network that the borrower has invited to give to their loan
+loan_id: loan_id
+size: $ amount of the loan, can be up to $15,000
+status: fundraising, expired (failed to fundraise), paying back etc.
+term: term of the loan - can be 12-36 months
+total_lenders: total number of lenders which have lent to the loan
+trustee: an entity/individual which endorses the loan to increase credibility 
+years_experience: years of experience the borrower has running the business
+business_description: description of business written by borrower. aggregated with loan_purpose and personal_story for textual analysis
+loan_purpose: use of proceeds of the loan. aggregated with business_description and personal_story for textual analysis
+personal_story: borrower's personal stories. aggregated with business_description and loan_purpose for textual analysis 
