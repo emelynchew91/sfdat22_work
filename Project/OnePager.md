@@ -4,11 +4,13 @@ Kiva Zip (https://zip.kiva.org/) is a p2p crowdfunding platform that makes 0% in
 
 What I have accomplished so far:
 
-1) Scraped the Kiva website for data: scraped website for characteristics of 200+ U.S. based loans. E.g. Loan size, term, industry, duration of fundraising period, years of experience, purpose of loan, conversations with lenders, internet frequency of borrowers etc.
+1) Scraped the Kiva website for data: scraped website for characteristics of 200+ U.S. based loans. E.g. Loan size, term, industry, duration of fundraising period, years of experience, purpose of loan, conversations with lenders, internet frequency of borrowers etc. The scraping code can be found in the notebook: scrape loans.ipynb and the dataset can be found in: scrape loans.ipynb
 
-2) Preliminary logistic regression (combined with natural language processing): built logistic regression model that predicts with 64% accuracy whether a loan will be successful vs. a null accuracy rate of 50%. Hoping to include more variables to increase accuracy
+2) Preliminary exploratory analysis: Explored data to find featues that are relevant (e.g. industry, size of loan, term of loan, trustee, conversations etc.) This can be found in the notebook: kiva EDA _ Logistic Regression.ipynb
 
-3) Preliminary decision tree
+3) Logistic regression model: Predicts with 64% accuracy whether a loan will be successful vs. a null accuracy rate of 50%. Hoping to include more variables to increase accuracy. This can be found in the notebook: kiva EDA _ Logistic Regression.ipynb
+
+3) Preliminary decision tree. This can be found in kiva Decision Tree.ipynb
 
 What remains to be done: 
 
