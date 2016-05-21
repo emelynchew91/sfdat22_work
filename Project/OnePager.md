@@ -15,6 +15,9 @@ What I have accomplished so far:
 What remains to be done: 
 
 1) finish decision tree
+
 2) Make visualizations and make them pretty 
+
 3) Draw conclusions
+
 4) Make slides 
